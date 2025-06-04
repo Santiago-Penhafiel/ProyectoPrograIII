@@ -1,5 +1,7 @@
 package becas;
 
+import estudiantes.Estudiante;
+
 public abstract class Beca {
     private String nombre;
     private String descripcion;
@@ -28,4 +30,7 @@ public abstract class Beca {
     public String getBeneficios() {
         return beneficios;
     }
+
+    public abstract boolean cumpleRequisitos(Estudiante estudiante);
+
 }
