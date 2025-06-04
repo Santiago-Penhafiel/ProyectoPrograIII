@@ -1,6 +1,6 @@
 package becas;
 
-import estudiantes.Estudiante;
+import personas.Estudiante;
 
 public abstract class Beca {
     private String nombre;

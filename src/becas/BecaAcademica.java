@@ -1,6 +1,6 @@
 package becas;
 
-import estudiantes.Estudiante;
+import personas.Estudiante;
 
 public class BecaAcademica extends Beca {
     private double promedioMinimo;
@@ -9,7 +9,7 @@ public class BecaAcademica extends Beca {
         super(
                 "Beca Académica",
                 "Otorgada a estudiantes con excelente rendimiento académico.",
-                "Promedio mínimo de " + promedioMinimo", sin materias reprobadas, y estar matriculado en al menos 4 materias.",
+                "Promedio mínimo de " + promedioMinimo + ", sin materias reprobadas, y estar matriculado en al menos 4 materias.",
                 "Cobertura total de matrícula y un estipendio mensual."
         );
         this.promedioMinimo = promedioMinimo;
