@@ -9,6 +9,7 @@ import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 
 public class VentanaEstudiantes extends JPanel {
+    private JLabel titulo;
     private JButton regresarAlMenuButton;
     private JButton agregarButton, eliminarButton, buscarButton, editarButton, mostrarTablaButton;
     private JTextField nombreField, cedulaField, correoField, promedioField, puntajeField, cedulaBuscarField;
