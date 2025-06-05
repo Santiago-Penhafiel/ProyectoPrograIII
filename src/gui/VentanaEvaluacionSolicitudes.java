@@ -3,13 +3,12 @@ package gui;
 import javax.swing.*;
 import java.awt.*;
 
-public class    VentanaReportes extends JPanel{
-
-    private JButton regresarAlMenúButton;
+public class VentanaEvaluacionSolicitudes extends JPanel{
     private JPanel panel;
     private JLabel titulo;
+    private JButton regresarAlMenúButton;
 
-    public VentanaReportes() {
+    public VentanaEvaluacionSolicitudes() {
         this.setLayout(new BorderLayout());
         this.add(panel, BorderLayout.CENTER);
     }
